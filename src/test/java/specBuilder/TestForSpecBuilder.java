@@ -32,6 +32,7 @@ public class TestForSpecBuilder {
 		types.add("shop");
 		payload.setTypes(types);
 		
+		System.out.println("Spec builder....");
 		SpecReqAndResponseBuilder specRequestansResponse = new SpecReqAndResponseBuilder();
 		
 		Response res = given()
