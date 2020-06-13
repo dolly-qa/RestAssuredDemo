@@ -34,6 +34,7 @@ public class TestForSpecBuilder {
 		
 		System.out.println("Spec builder....");
 		System.out.println("Spec builder1111....");
+		System.out.println("Spec builder22222....");
 		SpecReqAndResponseBuilder specRequestansResponse = new SpecReqAndResponseBuilder();
 		
 		Response res = given()
